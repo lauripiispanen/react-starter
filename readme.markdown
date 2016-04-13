@@ -25,6 +25,7 @@ $ npm start
 
 ``` js
 var React = require('react')
+var ReactDOM = require('react-dom')
 var App = React.createClass({
   getInitialState: function () { return { n: 0 } },
   render: function () {
@@ -37,7 +38,7 @@ var App = React.createClass({
     this.setState({ n: this.state.n + 1 })
   }
 })
-React.render(<App />, document.querySelector('#content'))
+ReactDOM.render(<App />, document.querySelector('#content'))
 ```
 
 # contributing
