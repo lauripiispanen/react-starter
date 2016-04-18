@@ -1,9 +1,14 @@
-# react-starter
+# react-express-starter
 
 bare-bones [react](https://facebook.github.io/react/) starter
-using [reactify](https://npmjs.com/package/reactify) for jsx
+using as [express](https://npmjs.com/package/express) server
+and [reactify](https://npmjs.com/package/reactify) for jsx
 under [browserify](http://browserify.org)/[watchify](https://npmjs.com/package/watchify)
 with [npm run scripts](http://substack.net/task_automation_with_npm_run)
+
+Based on [react-starter](https://github.com/substack/react-starter) by substack,
+with an added express backend. Emphasis is on developer usability over production
+performance (no universal apps etc.)
 
 [view the starter demo](http://substack.neocities.org/react_starter.html)
 
